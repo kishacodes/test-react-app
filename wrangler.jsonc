@@ -3,9 +3,9 @@
  * https://developers.cloudflare.com/workers/wrangler/configuration/
  */
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "scores-frontend",
-	"main": "worker/index.js",
+	//"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "react-app",
+	"main": "worker/main.jsx",
 	"compatibility_date": "2024-11-11",
 	"assets": {
 		"not_found_handling": "single-page-application"
